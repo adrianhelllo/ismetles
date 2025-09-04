@@ -35,5 +35,24 @@ main article {
     margin: 2rem auto;
     padding: 2rem;
     border-radius: 1.5rem;
-    box-shadow: ;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out
 }
+
+main article h2 {
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+
+article:focus, article:hover {
+    transform: scale(1.025);
+}
+
+footer {
+    background-color: var(--HEADER-BG-COLOR);
+    padding: 2rem;
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+}
+
