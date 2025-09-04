@@ -21,8 +21,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: var(--HEADER-BG-COLOR);
+    transition: all 0.3s ease-in-out;
+    font-size: 90%;
+}
+
+.header:hover {
+    padding: 1rem 1.5rem;
+    font-size: 100%;
 }
 
 .header a img {
@@ -54,5 +61,10 @@ footer {
     text-align: center;
     font-weight: 100;
     font-style: italic;
+    transition: font-weight 0.4s ease-in;
+}
+
+footer:hover {
+    font-weight: 500;
 }
 
