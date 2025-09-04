@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+:root {
+    --HEADER-BG-COLOR: #cdfd9f;
+    --BODY-BG-COLOR: #e9fdd6;
+    --ARTICLE-BG-COLOR: #dffcc4;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,6 +14,7 @@
 
 body {
     font-family: "Nunito", sans-serif;
+    background-color: var(--BODY-BG-COLOR);
 }
 
 .header {
@@ -15,8 +22,18 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    background-color: var(--HEADER-BG-COLOR);
 }
 
 .header a img {
     max-width: 75px;
+}
+
+main article {
+    background-color: var(--ARTICLE-BG-COLOR);
+    max-width: 75%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: ;
 }
